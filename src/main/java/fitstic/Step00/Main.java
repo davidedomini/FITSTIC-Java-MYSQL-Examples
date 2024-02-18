@@ -1,4 +1,4 @@
-package fitstic.BasicConnection;
+package fitstic.Step00;
 
 import java.sql.Connection;
 import java.sql.DriverManager;

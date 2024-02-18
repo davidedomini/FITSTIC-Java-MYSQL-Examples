@@ -1,4 +1,4 @@
-package fitstic.SimpleQuery;
+package fitstic.Step01;
 
 import java.sql.Connection;
 import java.sql.DriverManager;
