@@ -22,3 +22,11 @@ tasks.test {
 tasks.withType<JavaExec>().forEach {
     it.args("-Djava.net.preferIPv4Stack=true")
 }
+
+tasks.register<JavaExec>("runStep00") {
+    // Sostituisci con il percorso completo della classe main
+    mainClass.set("fitstic.Step00.Main")
+
+    // Configura il classpath
+    classpath = sourceSets["main"].runtimeClasspath
+}

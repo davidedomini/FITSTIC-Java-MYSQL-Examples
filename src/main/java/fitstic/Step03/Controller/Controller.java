@@ -18,9 +18,9 @@ public class Controller {
                     .newInstance();
 
             connection = DriverManager.getConnection(
-                    "jdbc:mysql://172.17.0.2:3306/university",
+                    "jdbc:mysql://127.0.0.1:3306/university",
                     "root",
-                    "root"
+                    "FITSTIC"
             );
 
             Statement statement = connection.createStatement();
