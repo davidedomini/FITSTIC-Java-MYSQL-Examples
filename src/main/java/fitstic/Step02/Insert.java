@@ -9,7 +9,7 @@ public class Insert {
 
     public static void main(String[] args){
         Connection connection = null;
-        String query = "INSERT INTO Students(Name) VALUES ('Giacomo')";
+        String query = "INSERT INTO Students(Name) VALUES ('Davide')";
 
         try {
             Class.forName("com.mysql.cj.jdbc.Driver")
@@ -19,7 +19,7 @@ public class Insert {
             connection = DriverManager.getConnection(
                     "jdbc:mysql://127.0.0.1:3306/university",
                     "root",
-                    "FITSTIC"
+                    "root"
             );
 
             Statement statement = connection.createStatement();

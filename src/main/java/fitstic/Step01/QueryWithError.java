@@ -19,7 +19,7 @@ public class QueryWithError {
             connection = DriverManager.getConnection(
                     "jdbc:mysql://127.0.0.1:3306/university",
                     "root",
-                    "FITSTIC"
+                    "root"
             );
 
             Statement statement = connection.createStatement();

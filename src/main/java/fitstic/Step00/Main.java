@@ -16,7 +16,7 @@ public class Main {
             connection = DriverManager.getConnection(
                 "jdbc:mysql://127.0.0.1:3306/university",
                 "root",
-                "FITSTIC"
+                "root"
             );
 
             System.out.println("Connected!");
